@@ -1,0 +1,22 @@
+﻿/*הגדרות עיצוב עמוד זקוק לעזרה*/
+/*הגדרות עיצוב תוכן*/
+article h3, article p {
+    position: relative;
+    top: -200px;
+    right: 250px;
+    width: 303px;
+}
+/*הגדרות עיצוב תמונה*/
+
+.imgBatKol {
+    position: relative;
+    top: -50px;
+    right: 0px;
+}
+/*הגדרות עיצוב תמונה*/
+
+#maavarim {
+    position: relative;
+    top: -103px;
+    right: 0px;
+}

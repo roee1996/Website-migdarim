@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "migdarimAvrahamiRoeeFeinsteinSnirKlaimanNoiVolokitaZohar", ".", "{84FABE00-26F2-4DBD-A7CD-52ECED6F1D39}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61617"
+		Debug.AspNetCompiler.PhysicalPath = "..\migdarimAvrahamiRoeeFeinsteinSnirKlaimanNoiVolokitaZohar\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61617\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61617"
+		Release.AspNetCompiler.PhysicalPath = "..\migdarimAvrahamiRoeeFeinsteinSnirKlaimanNoiVolokitaZohar\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61617\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61617"
+		SlnRelativePath = "..\migdarimAvrahamiRoeeFeinsteinSnirKlaimanNoiVolokitaZohar\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84FABE00-26F2-4DBD-A7CD-52ECED6F1D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FABE00-26F2-4DBD-A7CD-52ECED6F1D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42B53EF8-6557-4783-9EC8-3725EA9F10D1}
+	EndGlobalSection
+EndGlobal

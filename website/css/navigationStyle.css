@@ -1,0 +1,201 @@
+﻿/*הגדרות עיצוב סרגל ניווט עליון ותחתון, סרגל ניווט תחתון סטנדרטי באתר ולא מותאם*/
+
+/*logo, bar, ul & li*/
+/*הגדרות עיצוב לוגו*/
+.logo {
+    float: right;
+    background: #A1C3D1;
+}
+/*הגדרות מיקום סרגל*/
+#nevigationBar {
+    position: absolute;
+    width: 100%;
+    background: #A1C3D1;
+}
+/*הגדרות רשימה רל ניווט*/
+#nevigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+/* כשעמודים מעליו אז הוא הופך למודגשהגדרות של הפעלה של קישור*/
+#nevigationBar li a:hover {
+    font-weight: bold;
+}
+
+/*הגדרות קישור בסרגל ניווט עליון*/
+#nevigationBar ul li a{
+    color: black;
+    font-size: 25px;
+    padding: 76px 70px;
+    text-decoration: none;
+    width: 40px;
+    height: 18px;
+    position: absolute;
+}
+
+/*nevigationBar - definitionsAndTerms*/
+/*הגדרות מיקום של כותרת בסרגל ניווט*/
+.definitionsAndTerms {
+    left: 653px;
+    top: -25px;
+    z-index: 1;
+}
+/*הגדרות מיקום של עיצוב כפתור*/
+.navBackRoundRevealOne{
+    position:absolute;
+    left:650px;
+    top:10px;
+}
+
+/*nevigationBar - personalStories*/
+/*הגדרות מיקום של כותרת בסרגל ניווט*/
+
+.personalStories {
+    left: 453px;
+    top: -25px;
+    z-index: 1;
+}
+/*הגדרות מיקום של עיצוב כפתור*/
+
+.navBackRoundRevealTwo {
+    position: absolute;
+    left: 450px;
+    top: 10px;
+}
+
+/*nevigationBar - personalStories*/
+/*הגדרות מיקום של כותרת בסרגל ניווט*/
+
+.needHelp {
+    left: 253px;
+    top: -25px;
+    z-index: 1;
+}
+/*הגדרות מיקום של עיצוב כפתור*/
+
+.navBackRoundRevealThree {
+    position: absolute;
+    left: 250px;
+    top: 10px;
+}
+
+/*nevigationBar - personalStories*/
+/*הגדרות מיקום של כותרת בסרגל ניווט*/
+
+.about {
+    left: 45px;
+    top: -15px;
+    z-index: 1;
+}
+/*הגדרות מיקום של עיצוב כפתור*/
+
+.navBackRoundRevealFour {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+/*active/inActive*/
+/*הגדרות קישור עובד לא עובד בקשר לפוריר לחם*/
+#active {
+    font-weight:bold;
+}
+
+/*Breadcrumbs*/
+/*סרגל פירורי לחם*/
+#Breadcrumbs {
+    position: absolute;
+    top: 170px;
+    float: right;
+    background: #A1C3D1;
+    border-radius: 0px 0px 0px 20px;
+}
+
+    /*סרגל פירורי לחם רשימה*/
+
+#Breadcrumbs ol li {
+    display: inline-block;
+}
+    /*סרגל פירורי לחם הוספה של >*/
+
+#Breadcrumbs ol li:after {
+    content: ">";
+}
+    /*סרגל פירורי לחם הוספה של >*/
+
+#Breadcrumbs ol li:last-child:after {
+    content: "";
+}
+
+/*footer*/
+/*הגדרות סרגל ניווט תחתון - אפשר לראות הסברים בעמוד הסיפור של עודד - זה אותם הגדרות רק כאן זה מותאם לכל האתר ולא ספציפית לעמוד מסוים*/
+footer {
+    width: 1280px;
+    max-width: 100%;
+    height: 349px;
+    padding-bottom: 0px;
+}
+
+    footer hr {
+        position: relative;
+        top: -9px;
+        border: 0px;
+        border-bottom: 2px solid black;
+    }
+
+/*footer table*/
+
+    footer table {
+        position: relative;
+        top: -25px;
+        right: 370px;
+        width: 550px;
+        text-align: center;
+    }
+
+.thOne {
+    position: relative;
+    right: -170px;
+}
+
+.tdOne {
+    position: relative;
+    right: -15px;
+}
+
+.tdTwo {
+    position: relative;
+    right: 170px;
+}
+
+footer table a {
+    text-decoration: none;
+    color:black;
+}
+
+footer table a:hover {
+    text-decoration: underline;
+}
+
+footer table th a{
+    font-weight:normal;
+}
+
+/*footer p*/
+
+footer div {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+/*footer logo*/        
+
+.logoFooter {
+    position: relative;
+    top: -30px;
+    width: 200px;
+    height: 98px;
+}

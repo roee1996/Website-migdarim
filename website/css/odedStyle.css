@@ -1,0 +1,127 @@
+﻿/*קובץ CSS ששיך לסיפור העמוד של עודד*/
+
+/*הגדרת הפונט כפונט גדי אלמוג*/
+@font-face {
+    font-family: 'gadi-almog-regular-aaa';
+    src: url(../fonts/gadi-almog-regular-aaa.otf) format('opentype');
+}
+
+/*עיצוב HEADER ותפריט*/
+header {
+    position: relative;
+    right: 250px;
+    width: 75%
+}
+
+/*הגדרות תמונה עודד*/
+.oded {
+    position: absolute;
+    width: 232px;
+    height: 250px;
+    top: 0px;
+    right: -250px;
+}
+
+/*story*/
+/*עיצוב הסיפור של עודד הסיפור עצמו*/
+.gadiAlmog {
+    font-family: gadi-almog-regular-aaa;
+}
+
+/*עיצוב המרכאות התחתונות בסיפור*/
+.endQuote {
+    position: absolute;
+    top: 4130px;
+    right: 650px;
+}
+
+/*button*/
+/*עיצוב כפתור לסיפורים נוספים*/
+.button {
+    position: absolute;
+    top: 4150px;
+    right: 1050px;
+}
+
+/*הגדרת הקישור לסיפורים נוספים*/
+.divButton a {
+    position: absolute;
+    top: 4180px;
+    right: 1110px;
+    z-index: 1;
+}
+
+/*odedFooter*/
+/*עיצוב הפוטר של עודד - בשונה מכל שאר האתר, הסיפור של עודד ארוך יותר ולכן הפוטר היה צריך התאמה לאורך הדף*/
+#odedFooter {
+    position:relative;
+    top:4500px;
+    width: 1280px;
+    max-width: 100%;
+    height: 349px;
+    padding-bottom: 0px;
+}
+
+/*קו מפריד*/
+#odedFooter hr {
+    position: relative;
+    top: -2px;
+    border: 0px;
+    border-bottom: 2px solid black;
+}
+
+/*footer table*/
+/*טבלה שמכילה קישורים לעמודים שונים*/
+#odedFooter table {
+    position: relative;
+    top: -25px;
+    right: 370px;
+    width: 550px;
+    text-align: center;
+}
+/*עיצוב כותרת ראשית של טבלה*/
+.thOne {
+    position: relative;
+    right: -170px;
+}
+/*עיצוב עמודה ראשונה של טבלה*/
+.tdOne {
+    position: relative;
+    right: -15px;
+}
+/*עיצוב עמודה שניה של טבלה*/
+.tdTwo {
+    position: relative;
+    right: 170px;
+}
+/*עיצוב קישורים בתוך טבלה*/
+#odedFooter table a {
+    text-decoration: none;
+    color: black;
+}
+/*ברגע שעוברים מעל קישור יופיע קו תחתון*/
+footer table a:hover {
+    text-decoration: underline;
+}
+/*הגדרה שהקישורים לא יופיעו בהדגשה*/
+#odedFooter table th a {
+    font-weight: normal;
+}
+
+/*footer p*/
+/*עיצוב מיקום סרגל ניווט תחתון*/
+#odedFooter div {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+/*footer logo*/
+/*לוגו אתר*/
+.logoFooter {
+    position: relative;
+    top: -15px;
+    width: 200px;
+    height: 98px;
+}

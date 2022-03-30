@@ -1,0 +1,51 @@
+﻿/*קובץ CSS ששיך לסיפור העמוד של תמי*/
+
+/*הגדרת הפונט כפונט גדי אלמוג*/
+@font-face {
+    font-family: 'gadi-almog-regular-aaa';
+    src: url(../fonts/gadi-almog-regular-aaa.otf) format('opentype');
+}
+/*עיצוב HEADER ותפריט*/
+header {
+    position: relative;
+    right: 250px;
+    width: 75%
+}
+
+/*הגדרות תמונה תמי*/
+.tami {
+    position: absolute;
+    width: 232px;
+    height: 250px;
+    top: 0px;
+    right: -250px;
+}
+
+/*עיצוב הסיפור של תמי הסיפור עצמו*/
+/*story*/
+.gadiAlmog {
+    font-family: gadi-almog-regular-aaa;
+}
+
+/*עיצוב המרכאות התחתונות בסיפור*/
+.endQuote{
+    position:absolute;
+    top:1650px;
+    right:950px;
+}
+
+/*button*/
+/*עיצוב כפתור לסיפורים נוספים*/
+.button {
+    position: absolute;
+    top: 1650px;
+    right: 1050px;
+}
+
+/*הגדרת הקישור לסיפורים נוספים*/
+.divButton a {
+    position: absolute;
+    top: 1680px;
+    right: 1110px;
+    z-index:1;
+}
